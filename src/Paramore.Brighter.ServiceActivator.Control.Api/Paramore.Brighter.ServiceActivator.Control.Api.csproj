@@ -4,7 +4,6 @@
     <OutputType>Library</OutputType>
     <TargetFrameworks>$(BrighterCoreTargetFrameworks)</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <Authors>Paul Reardon</Authors>
     <IsPackable>true</IsPackable>
     <Description>The API extensions for the Brighter Service Activator Control module</Description>

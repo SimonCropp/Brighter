@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFrameworks>$(BrighterTargetFrameworks)</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <Authors>Paul Reardon</Authors>
   </PropertyGroup>
 

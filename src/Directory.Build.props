@@ -1,4 +1,5 @@
 <Project>
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" Condition="'' != $([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
   <PropertyGroup>
     <Company>Brighter Command</Company>
     <Authors>Ian Cooper</Authors>
@@ -19,8 +20,6 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <!-- Recommended: Embed symbols containing Source Link in the main file (exe/dll) -->
     <DebugType>embedded</DebugType>
-
-    <LangVersion>latest</LangVersion>
 
     <!-- Version numbers have to be included at the same level as source link otherwise versions are reset to 1.0.0 -->
     <AssemblyVersion>10.0.0.0</AssemblyVersion>

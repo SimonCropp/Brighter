@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFrameworks>$(BrighterTargetFrameworks)</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <Authors>Paul Reardon</Authors>
     <Description>The Control modules for Brighter Service Activator</Description>
     <PackageTags>Command;Event;Service Activator;Decoupled;Invocation;Messaging;Remote;Command Dispatcher;Command Processor;Request;Service;Task Queue;Work Queue;Retry;Circuit Breaker;Availability</PackageTags>

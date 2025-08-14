@@ -4,8 +4,6 @@
     <TargetFrameworks>$(BrighterTargetFrameworks)</TargetFrameworks>
     <Description>This Microsoft Extensions Diagnostics Health Checks for Service Activator</Description>
     <Authors>Paul Reardon</Authors>
-    <LangVersion>latest</LangVersion>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
